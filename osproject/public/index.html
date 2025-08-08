@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- <meta name="theme-color" content="#000000" /> -->
+  <meta
+    name="description"
+    content="OS Boot Process - CPU Scheduling Simulation"
+  />
+  
+  <!-- Preload CSS for better performance -->
+  <link rel="preload" href="%PUBLIC_URL%/static/css/main.css" as="style" />
+  
+  <!-- Apple Touch Icon (for PWA/saved to homescreen) -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  
+  <!-- Manifest for PWA -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  
+  <title>OS Boot Process Scheduler</title>
+  
+  <!-- Tailwind/React CSS will be injected here by Webpack -->
+</head>
+<body>
+  <noscript>
+    <div style="padding: 20px; text-align: center;">
+      <h1>JavaScript Required</h1>
+      <p>This application requires JavaScript to function properly.</p>
+      <p>Please enable JavaScript in your browser settings.</p>
+    </div>
+  </noscript>
+  <div id="root"></div>
+  
+  <!-- 
+    No explicit CSS links needed - Webpack will inject:
+    1. Compiled Tailwind CSS (from index.css)
+    2. Any component CSS
+    3. Source maps in development
+  -->
+</body>
+</html>

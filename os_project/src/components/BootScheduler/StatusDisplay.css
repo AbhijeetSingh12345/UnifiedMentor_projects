@@ -1,0 +1,25 @@
+.status-display {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .current-time {
+    font-size: 18px;
+    font-family: monospace;
+    margin-bottom: 4px;
+  }
+  
+  .process-status {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .process-status.running {
+    color: #10b981; /* green */
+  }
+  
+  .process-status.idle {
+    color: #6b7280; /* gray */
+    font-style: italic;
+  }
+  

@@ -1,0 +1,16 @@
+.boot-scheduler {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .boot-scheduler h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #333;
+  }
